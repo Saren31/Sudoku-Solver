@@ -1,0 +1,222 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tests_tad_ensemble%b	tests_tad_ensemble.adb	b99edc32 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W affichage%s		affichage.adb		affichage.ali
+W remplirgrille%s	remplirgrille.adb	remplirgrille.ali
+W resolutions%s		resolutions.adb		resolutions.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+
+U tests_tad_ensemble%s	tests_tad_ensemble.ads	792cf967 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W tests%s		tests.ads		tests.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-charac.ads		20200819050642 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050642 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-string.ads		20200819050644 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050644 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050644 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20220104154036 dd24ee3b affichage%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D remplirgrille.ads	20220104161842 cd1c0300 remplirgrille%s
+D resolutions.ads	20220119101954 13b5d9a1 resolutions%s
+D system.ads		20200819050648 32a08138 system%s
+D s-atocou.ads		20200819050646 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050646 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-memory.ads		20200819050646 597d6634 system.memory%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050648 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050648 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050648 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050648 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220104154036 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119110510 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119110642 0d2ff476 tad_grillesudoku%s
+D tad_pile.ads		20220119095338 a9443130 tad_pile%s
+D tad_pile_cord.ads	20220119100532 79420a6c tad_pile_cord%s
+D tad_pile_grille.ads	20220119100736 c9038564 tad_pile_grille%s
+D tests.ads		20220104154036 fad4d90b tests%s
+D tests_tad_ensemble.ads  20220104154036 95ae5037 tests_tad_ensemble%s
+D tests_tad_ensemble.adb  20220104154036 80a106b3 tests_tad_ensemble%b
+G a e
+G c Z s b [test_ensemble_p1 tests_tad_ensemble 7 13 none]
+G c Z s b [test_ensemble_p2 tests_tad_ensemble 8 13 none]
+G c Z s b [test_ensemble_p3 tests_tad_ensemble 9 13 none]
+G c Z s b [test_ensemble_p4 tests_tad_ensemble 10 13 none]
+G c Z s b [test_ensemble_p5a tests_tad_ensemble 11 13 none]
+G c Z s b [test_ensemble_p5b tests_tad_ensemble 12 13 none]
+G c Z s b [test_ensemble_p6 tests_tad_ensemble 13 13 none]
+G c Z s b [test_ensemble_p7a tests_tad_ensemble 14 13 none]
+G c Z s b [test_ensemble_p7b tests_tad_ensemble 15 13 none]
+G c Z s b [test_ensemble_p8 tests_tad_ensemble 16 13 none]
+G c Z s b [test_ensemble_exception1 tests_tad_ensemble 17 13 none]
+G c Z s b [test_ensemble_exception2 tests_tad_ensemble 18 13 none]
+G c Z s s [Tles_testsTDI tests_tad_ensemble 20 4 none]
+G c Z s s [Tles_testsTDF tests_tad_ensemble 20 4 none]
+G c Z s s [TresultatsBIP tests_tad_ensemble 46 4 none]
+G r c none [test_ensemble_p1 tests_tad_ensemble 7 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p1 tests_tad_ensemble 7 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_ensemble_p2 tests_tad_ensemble 8 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p2 tests_tad_ensemble 8 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_ensemble_p3 tests_tad_ensemble 9 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p3 tests_tad_ensemble 9 13 none] [nombrechiffres tad_ensemble 19 13 none]
+G r c none [test_ensemble_p4 tests_tad_ensemble 10 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p4 tests_tad_ensemble 10 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p4 tests_tad_ensemble 10 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_ensemble_p5a tests_tad_ensemble 11 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p5a tests_tad_ensemble 11 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p5a tests_tad_ensemble 11 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_ensemble_p5b tests_tad_ensemble 12 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p5b tests_tad_ensemble 12 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p5b tests_tad_ensemble 12 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_ensemble_p6 tests_tad_ensemble 13 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p6 tests_tad_ensemble 13 13 none] [nombrechiffres tad_ensemble 19 13 none]
+G r c none [test_ensemble_p6 tests_tad_ensemble 13 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p7a tests_tad_ensemble 14 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p7a tests_tad_ensemble 14 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p7a tests_tad_ensemble 14 13 none] [retirerchiffre tad_ensemble 29 14 none]
+G r c none [test_ensemble_p7a tests_tad_ensemble 14 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_ensemble_p7b tests_tad_ensemble 15 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p7b tests_tad_ensemble 15 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p7b tests_tad_ensemble 15 13 none] [retirerchiffre tad_ensemble 29 14 none]
+G r c none [test_ensemble_p7b tests_tad_ensemble 15 13 none] [ensemblevide tad_ensemble 12 13 none]
+G r c none [test_ensemble_p8 tests_tad_ensemble 16 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_p8 tests_tad_ensemble 16 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_p8 tests_tad_ensemble 16 13 none] [nombrechiffres tad_ensemble 19 13 none]
+G r c none [test_ensemble_p8 tests_tad_ensemble 16 13 none] [retirerchiffre tad_ensemble 29 14 none]
+G r c none [test_ensemble_exception1 tests_tad_ensemble 17 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_exception1 tests_tad_ensemble 17 13 none] [ajouterchiffre tad_ensemble 24 14 none]
+G r c none [test_ensemble_exception1 tests_tad_ensemble 17 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r c none [test_ensemble_exception2 tests_tad_ensemble 18 13 none] [construireensemble tad_ensemble 9 13 none]
+G r c none [test_ensemble_exception2 tests_tad_ensemble 18 13 none] [retirerchiffre tad_ensemble 29 14 none]
+G r c none [test_ensemble_exception2 tests_tad_ensemble 18 13 none] [appartientchiffre tad_ensemble 15 13 none]
+G r l test_unitaire [Tles_testsTDI tests_tad_ensemble 20 4 none] [test_unitaireDI tests 7 9 none]
+G r k test_unitaire [Tles_testsTDI tests_tad_ensemble 20 4 none] [test_unitaireDF tests 7 9 none]
+G r k test_unitaire [Tles_testsTDF tests_tad_ensemble 20 4 none] [test_unitaireDF tests 7 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 49|1r6 1r33 50|2r6 2r31 3r6 3r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 50|3w10 3r35
+X 9 a-string.ads
+16K13*Strings 35e16 49|1r10 1r37
+X 11 a-strunb.ads
+82K21*Unbounded 758e26 49|1w18 1r45
+103V13*To_Unbounded_String{87R9} 49|22s8 24s8 26s8 28s8 30s8 32s8 34s8 36s8
+. 38s8 40s8 42s8 44s8
+X 13 a-textio.ads
+57K13*Text_IO 727e16 50|2w10 2r35
+X 16 affichage.ads
+5K9*affichage 28e14 50|6w6 6r24 8w6 8r25
+X 19 remplirgrille.ads
+3K9*remplirGrille 15e18 50|10w6 10r25
+X 20 resolutions.ads
+8K9*resolutions 54e16 50|9w6 9r25
+X 21 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 43 tad_ensemble.ads
+1K9*TAD_ensemble 34e17 50|5w6 5r24
+3X4*APPARTIENT_ENSEMBLE 50|165r12
+4X4*NON_APPARTIENT_ENSEMBLE 50|180r12
+6A9*Type_Ensemble(boolean) 50|20r11 31r11 42r11 53r11 66r11 79r11 91r23 111r11
+. 125r11 140r23 158r11 174r11
+9V13*construireEnsemble{6A9} 50|22s12 33s12 44s12 55s12 68s12 81s12 95s24
+. 113s12 127s12 143s12 160s12 176s12
+12V13*ensembleVide{boolean} 50|23s14 34s14 57s18 116s14 132s18
+15V13*appartientChiffre{boolean} 50|70s14 83s18 163s14 178s18
+19V13*nombreChiffres{integer} 50|45s14 96s24 102s30 147s24 149s30
+24U14*ajouterChiffre 50|56s7 69s7 82s7 99s10 114s7 129s10 145s10 161s7 162s7
+29U14*retirerChiffre 50|115s7 131s7 148s7 177s7
+X 48 tests.ads
+3K9*tests 12e10 49|2w6 2r33
+7R9*Test_Unitaire 10e14 49|20r54
+X 49 tests_tad_ensemble.ads
+4K9*tests_TAD_Ensemble 48l5 48e23 50|12b14 186l5 186t23
+7V13*test_Ensemble_P1{boolean} 21r8 50|19b13 27l8 27t24
+8V13*test_Ensemble_P2{boolean} 23r8 50|30b13 38l8 38t24
+9V13*test_Ensemble_P3{boolean} 25r8 50|41b13 49l8 49t24
+10V13*test_Ensemble_P4{boolean} 27r8 50|52b13 61l8 61t24
+11V13*test_Ensemble_P5a{boolean} 29r8 50|65b13 74l8 74t25
+12V13*test_Ensemble_P5b{boolean} 31r8 50|78b13 87l8 87t25
+13V13*test_Ensemble_P6{boolean} 33r8 50|90b13 106l8 106t24
+14V13*test_Ensemble_P7a{boolean} 35r8 50|110b13 120l8 120t25
+15V13*test_Ensemble_P7b{boolean} 37r8 50|124b13 136l8 136t25
+16V13*test_Ensemble_P8{boolean} 39r8 50|139b13 153l8 153t24
+17V13*test_Ensemble_Exception1{boolean} 41r8 50|157b13 169l8 169t32
+18V13*test_Ensemble_Exception2{boolean} 43r8 50|173b13 184l8 184t32
+20a4*les_Tests(48|7R9) 46r23
+46a4*resultats(boolean)
+X 50 tests_tad_ensemble.adb
+20a7 e{43|6A9} 22m7 23r28
+31a7 e{43|6A9} 33m7 34r28
+42a7 e{43|6A9} 44m7 45r30
+53a7 e{43|6A9} 55m7 56m23 56r23 57r32
+66a7 e{43|6A9} 68m7 69m23 69r23 70r33
+79a7 e{43|6A9} 81m7 82m23 82r23 83r37
+91a7 e{43|6A9} 95m7 96r40 99m26 99r26 102r46
+92i7 cardinalAvant{integer} 96m7 102r14
+93i7 i{integer} 97m7 98r13 99r29 100m10 100r15 102r51
+111a7 e{43|6A9} 113m7 114m23 114r23 115m23 115r23 116r28
+125a7 e{43|6A9} 127m7 129m26 129r26 131m23 131r23 132r32
+128i11 i{integer} 129r29
+140a7 e{43|6A9} 143m7 145m26 145r26 147r40 148m23 148r23 149r46
+141i7 cardinalAvant{integer} 147m7 149r14
+144i11 i{integer} 145r29
+158a7 e{43|6A9} 160m7 161m23 161r23 162m23 162r23 163r33
+174a7 e{43|6A9} 176m7 177m23 177r23 178r37
+

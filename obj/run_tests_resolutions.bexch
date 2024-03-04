@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__run_tests_resolutions.o
+[PROJECT FILES]
+C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr
+20220104154632 a61ea42e4e5e0aefdbc9d568b15cb3a3
+[BOUND OBJECT FILES]
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\TAD_coordonnee.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\TAD_ensemble.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\TAD_grillesudoku.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\affichage.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\remplirGrille.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\resolutions.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\tests.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\tests_resolutions.o
+C:\Users\lucas\Desktop\Informatique\S1.02\obj\run_tests_resolutions.o
+[GENERATED SOURCE FILES]
+b__run_tests_resolutions.ads
+b__run_tests_resolutions.adb
+b__run_tests_resolutions.ali
+[RESULTING OPTIONS]
+-LC:\Users\lucas\Desktop\Informatique\S1.02\obj\
+-LC:\Users\lucas\Desktop\Informatique\S1.02\obj\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

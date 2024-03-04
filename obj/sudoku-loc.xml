@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 24" line=" 142" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\pile_grille.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_Pile.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 6" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 179" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 182" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 182" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 55" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 55" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 139" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 55" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 55" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 139" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 137" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 3" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 137" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 167" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 168" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 117" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_ensemble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 117" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_coordonnee.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 117" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\resolutions.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\lucas\Desktop\Informatique\S1.02\sudoku.gpr</vfs_project>
+      <vfs_file>C:\Users\lucas\Desktop\Informatique\S1.02\src\tad\TAD_grillesudoku.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

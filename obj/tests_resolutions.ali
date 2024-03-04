@@ -1,0 +1,206 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tests_resolutions%b	tests_resolutions.adb	6d1a69f7 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W affichage%s		affichage.adb		affichage.ali
+W remplirgrille%s	remplirgrille.adb	remplirgrille.ali
+W resolutions%s		resolutions.adb		resolutions.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+U tests_resolutions%s	tests_resolutions.ads	c698fc58 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W tests%s		tests.ads		tests.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-charac.ads		20200819050642 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050642 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-string.ads		20200819050644 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050644 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050644 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20220104154036 dd24ee3b affichage%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D remplirgrille.ads	20220104161842 cd1c0300 remplirgrille%s
+D resolutions.ads	20220119101954 13b5d9a1 resolutions%s
+D system.ads		20200819050648 32a08138 system%s
+D s-atocou.ads		20200819050646 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050646 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-memory.ads		20200819050646 597d6634 system.memory%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050648 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050648 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050648 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050648 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220104154036 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119110510 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119110642 0d2ff476 tad_grillesudoku%s
+D tad_pile.ads		20220119095338 a9443130 tad_pile%s
+D tad_pile_cord.ads	20220119100532 79420a6c tad_pile_cord%s
+D tad_pile_grille.ads	20220119100736 c9038564 tad_pile_grille%s
+D tests.ads		20220104154036 fad4d90b tests%s
+D tests_resolutions.ads	20220104161826 2a1a5508 tests_resolutions%s
+D tests_resolutions.adb	20220104161750 b7839c63 tests_resolutions%b
+G a e
+G c Z s b [test_resolution_grille_1 tests_resolutions 7 13 none]
+G c Z s b [test_resolution_grille_2 tests_resolutions 8 13 none]
+G c Z s b [test_resolution_grille_3 tests_resolutions 9 13 none]
+G c Z s b [test_resolution_grille_4 tests_resolutions 10 13 none]
+G c Z s b [test_resolution_grille_5 tests_resolutions 11 13 none]
+G c Z s b [test_resolution_grille_6 tests_resolutions 12 13 none]
+G c Z s b [test_resolution_grille_7 tests_resolutions 13 13 none]
+G c Z s b [test_resolution_grille_8 tests_resolutions 14 13 none]
+G c Z s b [test_resolution_grille_9 tests_resolutions 15 13 none]
+G c Z s s [Tles_testsTDI tests_resolutions 17 4 none]
+G c Z s s [Tles_testsTDF tests_resolutions 17 4 none]
+G c Z s s [TresultatsBIP tests_resolutions 37 4 none]
+G r c none [test_resolution_grille_1 tests_resolutions 7 13 none] [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none]
+G r c none [test_resolution_grille_1 tests_resolutions 7 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_2 tests_resolutions 8 13 none] [grille2trestresfacile remplirgrille 6 13 none]
+G r c none [test_resolution_grille_2 tests_resolutions 8 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_3 tests_resolutions 9 13 none] [grille3tresfacile remplirgrille 7 13 none]
+G r c none [test_resolution_grille_3 tests_resolutions 9 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_4 tests_resolutions 10 13 none] [grille4facile remplirgrille 8 13 none]
+G r c none [test_resolution_grille_4 tests_resolutions 10 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_5 tests_resolutions 11 13 none] [grille5facile remplirgrille 9 13 none]
+G r c none [test_resolution_grille_5 tests_resolutions 11 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_6 tests_resolutions 12 13 none] [grille6moyen remplirgrille 10 13 none]
+G r c none [test_resolution_grille_6 tests_resolutions 12 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_7 tests_resolutions 13 13 none] [grille7difficile remplirgrille 11 13 none]
+G r c none [test_resolution_grille_7 tests_resolutions 13 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_8 tests_resolutions 14 13 none] [grille8difficile remplirgrille 12 13 none]
+G r c none [test_resolution_grille_8 tests_resolutions 14 13 none] [resoudresudoku resolutions 50 14 none]
+G r c none [test_resolution_grille_9 tests_resolutions 15 13 none] [grille9tresdifficile remplirgrille 13 13 none]
+G r c none [test_resolution_grille_9 tests_resolutions 15 13 none] [resoudresudoku resolutions 50 14 none]
+G r l test_unitaire [Tles_testsTDI tests_resolutions 17 4 none] [test_unitaireDI tests 7 9 none]
+G r k test_unitaire [Tles_testsTDI tests_resolutions 17 4 none] [test_unitaireDF tests 7 9 none]
+G r k test_unitaire [Tles_testsTDF tests_resolutions 17 4 none] [test_unitaireDF tests 7 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 49|1r6 1r33 50|2r6 2r31 3r6 3r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 50|3w10 3r35
+X 9 a-string.ads
+16K13*Strings 35e16 49|1r10 1r37
+X 11 a-strunb.ads
+82K21*Unbounded 758e26 49|1w18 1r45
+103V13*To_Unbounded_String{87R9} 49|19s8 21s8 23s8 25s8 27s8 29s8 31s8 33s8
+. 35s8
+X 13 a-textio.ads
+57K13*Text_IO 727e16 50|2w10 2r35
+X 16 affichage.ads
+5K9*affichage 28e14 50|8w6 8r28 10w6 10r25
+X 19 remplirgrille.ads
+3K9*remplirGrille 15e18 50|12w6 12r25
+5V13*grille1TresTresFacileDuNouvelAn2018{44|6A9} 50|24s12
+6V13*grille2TresTresFacile{44|6A9} 50|39s12
+7V13*grille3TresFacile{44|6A9} 50|54s12
+8V13*grille4Facile{44|6A9} 50|69s12
+9V13*grille5Facile{44|6A9} 50|84s12
+10V13*grille6Moyen{44|6A9} 50|99s12
+11V13*grille7Difficile{44|6A9} 50|114s12
+12V13*grille8Difficile{44|6A9} 50|129s12
+13V13*grille9TresDifficile{44|6A9} 50|144s12
+X 20 resolutions.ads
+8K9*resolutions 54e16 50|11w6 11r25
+50U14*resoudreSudoku 50|25s7 40s7 55s7 70s7 85s7 100s7 115s7 130s7 145s7
+X 21 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 42 tad_coordonnee.ads
+1K9*TAD_Coordonnee 28e19 50|5w6 5r28
+X 43 tad_ensemble.ads
+1K9*TAD_ensemble 34e17 50|6w6 6r28
+X 44 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 69e21 50|7w6 7r28
+6A9*Type_Grille(integer) 50|21r16 36r16 51r16 66r16 81r16 96r16 111r16 126r16
+. 141r16
+X 48 tests.ads
+3K9*tests 12e10 49|2w6 2r33
+7R9*Test_Unitaire 10e14 49|17r54
+X 49 tests_resolutions.ads
+4K9*tests_Resolutions 39l5 39e22 50|14b14 152l5 152t22
+7V13*test_Resolution_Grille_1{boolean} 18r8 50|20b13 30l8 30t32
+8V13*test_Resolution_Grille_2{boolean} 20r8 50|35b13 45l8 45t32
+9V13*test_Resolution_Grille_3{boolean} 22r8 50|50b13 60l8 60t32
+10V13*test_Resolution_Grille_4{boolean} 24r8 50|65b13 75l8 75t32
+11V13*test_Resolution_Grille_5{boolean} 26r7 50|80b13 90l8 90t32
+12V13*test_Resolution_Grille_6{boolean} 28r8 50|95b13 105l8 105t32
+13V13*test_Resolution_Grille_7{boolean} 30r8 50|110b13 120l8 120t32
+14V13*test_Resolution_Grille_8{boolean} 32r8 50|125b13 135l8 135t32
+15V13*test_Resolution_Grille_9{boolean} 34r8 50|140b13 150l8 150t32
+17a4*les_Tests(48|7R9) 37r23
+37a4*resultats(boolean)
+X 50 tests_resolutions.adb
+21a7 g{44|6A9} 24m7 25m23 25r23
+22b7 trouve{boolean} 25m26 26r14
+36a7 g{44|6A9} 39m7 40m23 40r23
+37b7 trouve{boolean} 40m26 41r14
+51a7 g{44|6A9} 54m7 55m23 55r23
+52b7 trouve{boolean} 55m26 56r14
+66a7 g{44|6A9} 69m7 70m23 70r23
+67b7 trouve{boolean} 70m26 71r14
+81a7 g{44|6A9} 84m7 85m23 85r23
+82b7 trouve{boolean} 85m26 86r14
+96a7 g{44|6A9} 99m7 100m23 100r23
+97b7 trouve{boolean} 100m26 101r14
+111a7 g{44|6A9} 114m7 115m23 115r23
+112b7 trouve{boolean} 115m26 116r14
+126a7 g{44|6A9} 129m7 130m23 130r23
+127b7 trouve{boolean} 130m26 131r14
+141a7 g{44|6A9} 144m7 145m23 145r23
+142b7 trouve{boolean} 145m26 146r14
+

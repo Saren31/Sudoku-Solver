@@ -1,0 +1,85 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tad_pile_grille%b	tad_pile_grille.adb	514b8968 NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U tad_pile_grille%s	tad_pile_grille.ads	c42c7112 EE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220104154036 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220119110510 2a870cde tad_ensemble%s
+D tad_grillesudoku.ads	20220119110642 0d2ff476 tad_grillesudoku%s
+D tad_pile_grille.ads	20220119100736 c9038564 tad_pile_grille%s
+D tad_pile_grille.adb	20220119100858 98480c0c tad_pile_grille%b
+G a e
+G c Z s b [construirepile tad_pile_grille 11 13 none]
+G c Z s b [estvide tad_pile_grille 14 13 none]
+G c Z s b [dernier tad_pile_grille 17 13 none]
+G c Z s b [empiler tad_pile_grille 20 13 none]
+G c Z s b [depiler tad_pile_grille 23 13 none]
+G c Z s s [TtableauBIP tad_pile_grille 27 4 none]
+G c Z s s [type_pile_grilleIP tad_pile_grille 29 9 none]
+X 25 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 69e21 26|1w6 1r28
+6A9*Type_Grille(integer) 26|17r57 20r62 27r47 27|17r60 50r56
+X 26 tad_pile_grille.ads
+2K9*TAD_Pile_Grille 27E9 34l5 34e20 27|2b14 59l5 59t20
+4N4*TAILLE_MAX 27r32 27|19r27
+5R9*Type_Pile_Grille 11r35 14r32 17r32 20r36 20r82 23r36 23r61 29c9 32e14
+. 27|7r35 8r10 17r36 17r80 30r36 30r61 42r31 50r31
+7X4*PILE_VIDE 27|33r16 53r16
+8X4*PILE_PLEINE 27|20r16
+11V13*construirePile{5R9} 27|7b13 12l8 12t22
+14V13*estVide{boolean} 14>22 27|42b13 45l8 45t15
+14r22 pile{5R9} 27|42b22 44r14
+17V13*dernier{25|6A9} 17>22 27|50b13 56l8 56t15
+17r22 pile{5R9} 27|50b22 52r10 55r14 55r28
+20V13*empiler{5R9} 20=22 20>55 27|17b13 25l8 25t15
+20r22 pile{5R9} 27|17b22 19r10 22m7 22r25 23m7 23r21 24r14
+20a55 e{25|6A9} 27|17b54 23r40
+23V13*depiler{5R9} 23=22 27|30b13 37l8 37t15
+23r22 pile{5R9} 27|30b22 32r10 35m7 35r25 36r14
+27A9 Tableau(25|6A9)<integer> 30r27
+30a7*elements{27A9} 27|23m12 55r19
+31i7*nb_elements{integer} 27|10m9 19r15 22m12 22r30 23r26 32r15 35m12 35r30
+. 44r19 52r15 55r33
+X 27 tad_pile_grille.adb
+8r7 p{26|5R9} 10m7 11r14
+

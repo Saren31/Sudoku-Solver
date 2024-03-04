@@ -1,0 +1,9 @@
+tad_pile.adb:17:13: not fully conformant with declaration at tad_pile.ads:23
+tad_pile.adb:17:13: mode of "pile" does not match
+tad_pile.adb:30:13: not type conformant with declaration at tad_pile.ads:26
+tad_pile.adb:30:13: return type does not match
+tad_pile.adb:30:54: formal parameter "Pile" cannot be used before end of specification
+tad_pile.adb:42:13: not fully conformant with declaration at tad_pile.ads:17
+tad_pile.adb:42:13: name "p" does not match
+tad_pile.adb:44:14: "p" is undefined
+tad_pile.adb:55:18: no selector "Pile" for type "Type_Pile" defined at tad_pile.ads:32
